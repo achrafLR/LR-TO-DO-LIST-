@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To Do List</title>
+    <!-- link fontawesome -->
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="bg-design1">
+        <svg class="design-bg" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+            <path fill="#FF0066" d="M64.6,-16.9C72.7,3.9,60.6,35.3,39.4,49.6C18.3,63.8,-11.9,60.9,-32.7,45.7C-53.4,30.4,-64.7,2.9,-57.7,-16.5C-50.7,-35.8,-25.3,-47,1.5,-47.4C28.3,-47.9,56.5,-37.7,64.6,-16.9Z" transform="translate(100 100)" />
+        </svg>
+    </div>
+    <div class="bg-design2">
+        <svg class="design-bg" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+            <path fill="#FF0066" d="M63.9,-24.1C69.3,-4.2,50.8,20.1,28.4,35.5C6,50.9,-20.3,57.5,-39.9,45.5C-59.5,33.4,-72.4,2.9,-64.6,-20.3C-56.9,-43.5,-28.4,-59.3,0.4,-59.4C29.3,-59.6,58.5,-44,63.9,-24.1Z" transform="translate(100 100)" />
+        </svg>
+    </div>
+    <div class="bg-design3">
+        <svg class="design-bg" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+            <path fill="#FF0066" d="M65.4,-36.9C79.2,-13.9,81,17,68.1,39.6C55.2,62.2,27.6,76.6,-0.4,76.9C-28.5,77.2,-57,63.2,-70.9,40C-84.9,16.8,-84.3,-15.8,-70.1,-39.1C-55.8,-62.4,-27.9,-76.5,-1.1,-75.9C25.8,-75.3,51.6,-60,65.4,-36.9Z" transform="translate(100 100)" />
+        </svg>
+    </div>
+
+
+    <div class="todolist-container">
+        <div class="input-note">
+            <input id="task-area" class="task-area" type="text" placeholder="Type Your Task Here">
+            <i class="btn-upload fas fa-cloud-upload-alt"></i>
+        </div>
+        <div class="tasks-space">
+            <div class="Tasks-area" id="tasks-area">
+                <button class="btn_select">
+                    <i class="fas fa-check-double"></i>
+                </button>
+                <p id="note">First Task be Here</p>
+                <button class="btn_delet">
+                    <i class="fas fa-trash"></i>
+                </button>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="sounds">
+        <audio class="sound-creat" src="sound effect/Daruma.Bbx.05_01 new.mp3"></audio>
+
+        <audio class="sound-done" src="sound effect/dig_whoosh_02_01.mp3"></audio>
+        <audio class="sound-delet" src="sound effect/fast_whoosh_01_01.mp3"></audio>
+    </div>
+
+    <script src="app.js" defer></script>
+
+
+</body>
+
+</html>
